@@ -1,13 +1,6 @@
 #include "sweeq.dtsi" // The shared dtsi file is included in the overlay
 
 
-/ {
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,split = &split0;
-    };
-
-    split0: split {
-        compatible = "zmk,split-peripheral";
-    };
+&default_transform { // Offset of 3 because the left side has 3 columns
+    col-offset = <5>;
 };
