@@ -1,0 +1,13 @@
+#include "sweeq.dtsi" // The shared dtsi file is included in the overlay
+
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,split = &split0;
+    };
+
+    split0: split {
+        compatible = "zmk,split-peripheral";
+    };
+};
