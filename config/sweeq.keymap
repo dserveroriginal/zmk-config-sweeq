@@ -48,12 +48,6 @@
         // both right thumb keys
         // internal-left & external-right thumb keys
         // both left thumb keys
-
-        combo_settings {
-            timeout-ms = <300>;
-            key-positions = <30 31>;
-            bindings = <&mo 5>;
-        };
     };
 
     keymap {
