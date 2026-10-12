@@ -63,13 +63,13 @@
 
         sym_layer {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp LESS_THAN  &kp PERCENT  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp NON_US_BACKSLASH  &kp EQUAL  &kp QUESTION  &kp SQT  &kp PLUS  &kp ASTERISK  &kp GREATER_THAN  &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &sl 4  &kp AT_SIGN  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp MINUS  &kp SLASH  &mo 3  &mo 4  &trans  &mo 5
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp LESS_THAN  &kp PERCENT  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp NON_US_BACKSLASH  &kp EQUAL  &kp QUESTION  &kp SQT  &kp PLUS  &kp ASTERISK  &kp GREATER_THAN  &kp DOLLAR  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp SLASH  &kp AT_SIGN  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp MINUS  &kp SLASH  &mo 3  &mo 4  &sl 5  &trans
             >;
         };
 
         ext_layer {
             bindings = <
-&kp ESC  &trans  &kp LEFT_WIN  &sk LEFT_WIN  &sl 4  &kp PG_UP  &kp HOME  &kp UP  &kp END  &kp CAPS  &sk LEFT_ALT  &sk LCTRL  &sk LSHIFT  &sk RIGHT_CONTROL  &sk RALT  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp LS(LA(LC(H)))  &kp LC(LS(LA(X)))  &kp LC(LS(LA(K)))  &kp TAB  &kp LC(LS(LA(L)))  &kp LC(BSPC)  &kp BSPC  &trans  &trans  &trans  &trans  &mo 1  &kp ENTER  &mo 3
+&kp ESC  &trans  &kp LEFT_WIN  &sk LEFT_WIN  &sl 4  &kp PG_UP  &kp HOME  &kp UP  &kp END  &kp CAPS  &sk LEFT_ALT  &sk LCTRL  &sk LSHIFT  &sk RIGHT_CONTROL  &sk RALT  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp LS(LA(LC(H)))  &kp LC(LS(LA(X)))  &kp LC(LS(LA(K)))  &kp TAB  &kp DEL  &kp LC(BSPC)  &kp BSPC  &trans  &trans  &trans  &trans  &mo 1  &kp ENTER  &mo 3
             >;
         };
 
